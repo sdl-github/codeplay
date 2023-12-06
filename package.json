@@ -4,7 +4,7 @@
   "packageManager": "pnpm@8.11.0",
   "scripts": {
     "build": "vite build",
-    "dev": "vite --port 3333 --open",
+    "dev": "vite --port 2323 --open",
     "lint": "eslint .",
     "typecheck": "vue-tsc --noEmit",
     "preview": "vite preview",
@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@vueuse/core": "^10.6.1",
+    "codeplayer": "^0.2.0",
     "vue": "^3.3.10",
     "vue-router": "^4.2.5"
   },

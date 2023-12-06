@@ -1,4 +1,4 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
 
 settings:
   autoInstallPeers: true
@@ -8,6 +8,9 @@ dependencies:
   '@vueuse/core':
     specifier: ^10.6.1
     version: 10.6.1(vue@3.3.10)
+  codeplayer:
+    specifier: ^0.2.0
+    version: 0.2.0
   vue:
     specifier: ^3.3.10
     version: 3.3.10(typescript@5.3.2)
@@ -2790,6 +2793,10 @@ packages:
       strip-ansi: 6.0.1
       wrap-ansi: 7.0.0
     dev: true
+
+  /codeplayer@0.2.0:
+    resolution: {integrity: sha512-YKR20KDI3ZcYa4odSVukjVimCKPEl2ad4/CXz5AwnXrSmP6s/w6oaukMi9xXJD3HS3Tfpex54Tg3ZTGFG33FTg==}
+    dev: false
 
   /color-convert@1.9.3:
     resolution: {integrity: sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==}
