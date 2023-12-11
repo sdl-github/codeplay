@@ -8,7 +8,9 @@ const indexHtml = `
     <title>CodePlayer</title>
   </head>
   <body>
-    <div id="root">hello world</div>
+    <div id="root">
+      <h1 class="title">Html JS CSS Template</h1>
+    </div>
   </body>
   <script type="module">
     import './index.js';
@@ -17,6 +19,13 @@ const indexHtml = `
 `.trim()
 
 const indexJs = `
+import './index.css'
+
+console.log('hello world')
+`.trim()
+const indexCss = `
+#root {
+}
 `.trim()
 
 const importMap = `
@@ -26,8 +35,9 @@ const importMap = `
 }
 `.trim()
 
-export const JsTemplate = {
+export const HtmlTemplate = {
   'index.html': indexHtml,
   'index.js': indexJs,
+  'index.css': indexCss,
   'import-map.json': importMap,
 }
