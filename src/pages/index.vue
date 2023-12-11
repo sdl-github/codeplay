@@ -11,6 +11,39 @@ const templates = [
       appType: 'html',
     },
   },
+  {
+    title: 'Vue2模板',
+    description: '包含Vue2 Elementui',
+    style: {
+      background: 'linear-gradient(rgb(245, 254, 242) 0%, rgb(230, 254, 238) 100%)',
+    },
+    options: {
+      openConsole: true,
+      appType: 'vue2',
+    },
+  },
+  {
+    title: 'Vue3模板',
+    description: '包含Vue3 arco-design',
+    style: {
+      background: 'linear-gradient(rgb(242, 249, 254) 0%, rgb(230, 244, 254) 100%)',
+    },
+    options: {
+      openConsole: true,
+      appType: 'vue3',
+    },
+  },
+  {
+    title: 'React+Antd模板',
+    description: '包含React Antd TSX',
+    style: {
+      background: 'linear-gradient(rgb(247, 247, 255) 0%, rgb(236, 236, 255) 100%)',
+    },
+    options: {
+      openConsole: true,
+      appType: 'react',
+    },
+  },
 ]
 
 function goRunCode(item: any) {
@@ -32,7 +65,7 @@ function goRunCode(item: any) {
         <div class="w-full rounded-[7px] bg-white p-6">
           <div>默认模板</div>
           <div class="mt-6 flex">
-            <ACard v-for="(item, index) in templates" :key="index" hoverable style="width: 300px">
+            <ACard v-for="(item, index) in templates" :key="index" hoverable class="mx-4 w-[300px]">
               <template #cover>
                 <div class="h-[100px]" :style="item.style" />
               </template>
