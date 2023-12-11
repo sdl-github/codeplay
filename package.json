@@ -13,8 +13,8 @@
     "postinstall": "npx simple-git-hooks"
   },
   "dependencies": {
+    "@sdl-life/runcode": "0.3.1-prepatch",
     "@vueuse/core": "^10.6.1",
-    "codeplayer": "^0.2.0",
     "vue": "^3.3.10",
     "vue-router": "^4.2.5"
   },

@@ -1,10 +1,13 @@
 <script setup lang="ts">
-import type { CodePlayerOptions } from 'codeplayer'
-import CodePlayer from 'codeplayer'
-import 'codeplayer/dist/style.css'
+import type { CodePlayerOptions } from '@sdl-life/runcode'
+import CodePlayer from '@sdl-life/runcode'
+import '@sdl-life/runcode/dist/style.css'
+import { JsTemplate } from '~/templates/javascript'
 
 const options: CodePlayerOptions = {
   appType: 'vue3',
+  initFiles: JsTemplate,
+  openConsole: true,
 }
 </script>
 
