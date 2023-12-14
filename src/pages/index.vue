@@ -118,13 +118,13 @@ async function queryData() {
               </AButton>
             </ATooltip>
           </div>
-          <div class="mt-6 flex">
+          <div class="mt-6 flex flex-wrap">
             <div v-if="loading" class="min-h-[400px] w-full">
               <a-skeleton active />
             </div>
             <template v-else>
               <ACard
-                v-for="(item, index) in data" :key="index" hoverable class="mx-4 w-[300px]"
+                v-for="(item, index) in data" :key="index" hoverable class="mx-4 mb-4 w-[300px]"
                 @click="goRunCodeSnippet(item)"
               >
                 <template #cover>

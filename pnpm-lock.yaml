@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@sdl-life/runcode':
-    specifier: 0.3.2-prepatch
-    version: 0.3.2-prepatch
+    specifier: 0.3.3-prepatch
+    version: 0.3.3-prepatch
   '@vueuse/core':
     specifier: ^10.6.1
     version: 10.6.1(vue@3.3.10)
@@ -1227,8 +1227,8 @@ packages:
     dev: true
     optional: true
 
-  /@sdl-life/runcode@0.3.2-prepatch:
-    resolution: {integrity: sha512-6PYfZsS/aQKu/cvlDvFYeT+DX++mW9D2GI6OPFhUaXp67oXXxfkPrsubTxt8AWAuSQQWc+DJUrwi3Hr0g7puQw==}
+  /@sdl-life/runcode@0.3.3-prepatch:
+    resolution: {integrity: sha512-97xgoNvMt3YeORD+UEGzg/sdKQCmi1q7VvOE8Jd1pP6/757+OA4rMgGEiD04tpvcgVnl1JocVMFABWzCjscT7A==}
     dev: false
 
   /@sigstore/bundle@2.1.0:
